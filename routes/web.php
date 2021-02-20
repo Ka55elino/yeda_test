@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/','CallbackFormController@index')->name('home');
+Route::post('/','CallbackFormController@send')->name('send');

@@ -133,4 +133,6 @@ return [
 
     'log_channel' => env('MAIL_LOG_CHANNEL'),
 
+    'admin_email' => env('ADMIN_EMAIL'),
+
 ];
